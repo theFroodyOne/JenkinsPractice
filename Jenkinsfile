@@ -8,4 +8,9 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            screenshots '*.png'
+        }
+    }
 }
