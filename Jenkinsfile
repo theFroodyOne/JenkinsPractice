@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'sudo apt-get install android-sdk-platform-tools'
+                sh 'apt-get install android-sdk-platform-tools'
             }
         }
     }
