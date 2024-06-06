@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh '/var/lib/docker/platform-tools/adb devices'
+                sh 'ls'
             }
         }
     }
