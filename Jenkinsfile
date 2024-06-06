@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'apt-get install android-sdk-platform-tools'
+                sh '/var/lib/docker/platform-tools/adb devices'
             }
         }
     }
