@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'cat /home/mint/test.txt'
+                sh 'sudo apt-get install android-sdk-platform-tools'
             }
         }
     }
