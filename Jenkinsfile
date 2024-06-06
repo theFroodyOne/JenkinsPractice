@@ -10,7 +10,7 @@ pipeline {
     }
     post {
         always {
-            screenshots '*.png'
+            archiveArtifacts '*.png'
         }
     }
 }
