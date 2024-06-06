@@ -3,9 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'pwd'
-                sh 'ls'
-                sh 'platform-tools/adb devices'
+                sh 'platform-tools/adb connect 172.16.9.181'
             }
         }
     }
