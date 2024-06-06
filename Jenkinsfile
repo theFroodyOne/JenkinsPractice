@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh 'ls'
+                sh 'platform-tools/adb devices'
             }
         }
     }
