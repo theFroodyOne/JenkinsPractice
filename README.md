@@ -1,4 +1,6 @@
 ## TODO
 Proper environment configuration (docker image with adb, maestro?) \
 Upload screenshots as artifacts \
-Connect to email (eventually slack)
+Connect to email (eventually slack) \
+
+I swear to fucking god....
